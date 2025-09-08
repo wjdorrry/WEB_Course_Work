@@ -9,10 +9,10 @@
 
 ```
 1. Склонируйте репозиторий:
-git clone https://github.com/bog-danius/Cursach.git
+git clone https://github.com/wjdorrry/WEB_Course_Work.git
 
 2. Перейдите в директорию проекта:
-cd ./cur/Cursach
+cd ./git/WEB_Course_Work
 
 3. Установите зависимости:
 npm install
