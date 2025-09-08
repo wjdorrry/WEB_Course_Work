@@ -1,0 +1,278 @@
+/*-----Обнуление-----*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #526E3E;
+    --third-color: #EDDBBE;
+    --font-family-sans-serif: "Roboto", sans-serif;
+    --text-scale: 1;
+}
+
+.dark-theme {
+    --primary-color: #121212;
+    --secondary-color: #154215;
+    --third-color: #EDDBBE;
+}
+.beige-theme {
+    --primary-color: #F5F5DC;
+    --secondary-color: #8B4513;
+    --third-color: #CD853F;
+}
+.blue-theme {
+    --primary-color: #ADD8E6;
+    --secondary-color: #00008B;
+    --third-color: #0000FF;
+}
+
+
+.accessibility-panel {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.accessibility-btn {
+    padding: 5px 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.accessibility-btn.active {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.language-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.language-btn {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.language-btn.active {
+    background: #333;
+    color: #fff;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--primary-color);
+}
+body, p, h1, h2, h3, h4, h5, h6, span, a, li, button {
+    font-size: calc(1em * var(--text-scale, 1));
+}
+
+.gap-16 {
+    gap: 16px
+}
+
+.gap-17 {
+    gap: 17px
+}
+
+.gap-18 {
+    gap: 18px
+}
+
+.gap-19 {
+    gap: 19px
+}
+
+.gap-20 {
+    gap: 20px
+}
+
+.gap-22 {
+    gap: 22px
+}
+
+.gap-23 {
+    gap: 23px
+}
+
+.gap-24 {
+    gap: 24px
+}
+
+.gap-31 {
+    gap: 31px
+}
+
+.gap-34 {
+    gap: 34px
+}
+
+.gap-41 {
+    gap: 41px
+}
+
+.gap-46 {
+    gap: 46px
+}
+
+.gap-70 {
+    gap: 70px
+}
+
+.text-xs {
+    font-size: calc(12px * var(--text-scale, 1));
+}
+
+.text-sm {
+    font-size: calc(13px * var(--text-scale, 1));
+}
+
+.text-base {
+    font-size: calc(16px * var(--text-scale, 1));
+}
+
+.text-lg {
+    font-size: calc(17px * var(--text-scale, 1));
+}
+
+.text-xl {
+    font-size: calc(28px * var(--text-scale, 1));
+}
+
+.text-2xl {
+    font-size: calc(30px * var(--text-scale, 1));
+}
+
+.text-3xl {
+    font-size: calc(38px * var(--text-scale, 1));
+}
+
+.text-4xl {
+    font-size: calc(57px * var(--text-scale, 1));
+}
+
+.text-normal {
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-style-normal {
+    font-style: normal;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.flex {
+    display: flex;
+}
+
+.center-vertical {
+    align-items: center;
+}
+
+.center-horizontal {
+    justify-content: center;
+}
+
+.between-horizontal {
+    justify-content: space-between;
+}
+
+.upend {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}

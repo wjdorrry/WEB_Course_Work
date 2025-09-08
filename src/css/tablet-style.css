@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .toggle-container {
+        margin-top: 20px;
+    }
+
+    .info__block {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info__block-text {
+        align-items: center;
+        padding: 3vw 0 10vw 0;
+    }
+
+    .info__block-text-logo-img {
+        margin: 0 auto;
+    }
+
+    .info__block-text-info {
+        text-align: center;
+    }
+}

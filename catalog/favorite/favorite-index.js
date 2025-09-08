@@ -1,0 +1,11 @@
+import "../../style2.css"
+import "../../src/css/style_favorite.css"
+import "../../src/css/header-style.css"
+import "../../src/css/footer-style.css"
+import "../../src/css/basic-style.css"
+import "../../src/css/card.css"
+
+import "../../src/js/components/header.js"
+import "../../src/js/components/footer.js"
+import "../../src/js/cotalog/initfavorite.js"
+import "../../src/js/api/api.js"

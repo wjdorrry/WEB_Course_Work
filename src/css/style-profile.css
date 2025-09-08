@@ -1,0 +1,39 @@
+body{
+    display : flex;
+    flex-direction: column;
+}
+.profile-container {
+    display: flex;
+    gap: 30px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.avatar-section {
+    text-align: center;
+}
+#profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+button {
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}

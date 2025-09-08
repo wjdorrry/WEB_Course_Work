@@ -1,0 +1,365 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #3498db;
+    --third-color: #2ecc71;
+    --bg-color: #ffffff;
+    --card-bg: #ffffff;
+    --text-color: #000000;
+}
+
+
+.default-theme {
+    --primary-color: #000;
+    --secondary-color: #3498db;
+    --third-color: #2ecc71;
+    --bg-color: #ffffff;
+    --card-bg: #ffffff;
+    --text-color: #000000;
+}
+
+.dark-theme {
+    --primary-color: #fff;
+    --secondary-color: #444;
+    --third-color: #777;
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --text-color: #eaeaea;
+}
+
+.beige-theme {
+    --primary-color: #4b3832;
+    --secondary-color: #d9ad7c;
+    --third-color: #e85a4f;
+    --bg-color: #fbeec1;
+    --card-bg: #fff;
+    --text-color: #4b3832;
+}
+
+.blue-theme {
+    --primary-color: #fff;
+    --secondary-color: #2980b9;
+    --third-color: #8e44ad;
+    --bg-color: #34495e;
+    --card-bg: #3b5998;
+    --text-color: #ecf0f1;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    position: relative;
+    width: 850px;
+    max-width: 90%;
+    height: 500px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    overflow: hidden;
+    transition: height 0.6s ease-in-out;
+}
+
+.container.active {
+    height: 1050px;
+}
+
+.form-box {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    transition: all 0.6s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    box-sizing: border-box;
+
+}
+
+.form-box.login {
+    right: 0;
+    z-index: 2;
+}
+
+.form-box.register {
+    right: 0;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.gener-password {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px;
+
+}
+.container.active .form-box.login {
+    right: 0;
+}
+
+.container.active .form-box.register {
+    right: 50%;
+    visibility: visible;
+}
+
+.form-box-logo {
+    font-size: 38px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.input-box {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-login {
+    width: 100%;
+    padding: 13px 20px;
+    background: #eee;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    height: 48px;
+    background: var(--third-color);
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.toggle-box {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    background: var(--third-color);
+    transition: all 0.6s ease-in-out;
+    z-index: 3;
+    overflow: hidden;
+    border-radius: 32px;
+}
+
+.container.active .toggle-box {
+    left: 50%;
+}
+
+.toggle-panel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.6s ease-in-out;
+}
+
+.toggle-panel.toggle-left {
+    left: 25%;
+}
+
+.toggle-panel.toggle-right {
+    right: -100%;
+}
+
+.container.active .toggle-panel.toggle-left {
+    left: -100%;
+}
+
+.container.active .toggle-panel.toggle-right {
+    right: 25%
+}
+
+.toggle-panel .btn {
+    background: transparent;
+    border: 2px solid #fff;
+    width: 160px;
+}
+
+
+.form-box-login-forgot {
+    text-align: right;
+    margin: -10px 0 20px;
+}
+
+.form-box-login-forgot-link {
+    color: #333;
+    font-size: 13px;
+}
+
+.nickname-section {
+    position: relative;
+}
+
+.btn-name-for-nickname {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: var(--secondary-color);
+    border: none;
+    border-radius: 0 8px 8px 0;
+    color: white;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.terms-label {
+    margin: 20px 0;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+.input-box.error .error-message {
+    display: block;
+}
+
+.input-box.error input {
+    border: 1px solid red;
+}
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+.popup-content {
+    position: relative;
+    background-color: #fff;
+    margin: 22.7%;
+    padding: 20px;
+    width: 25%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.popup h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.popup p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+    .toggle-container {
+        margin-top: 20px;
+    }
+
+    .container {
+        height: auto;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .toggle-box {
+        position: relative;
+        order: -1;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        background: var(--third-color);
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .toggle-panel {
+        position: relative;
+        width: auto;
+        height: auto;
+        padding: 0;
+        background: transparent;
+    }
+    .popup-content {
+        position: relative;
+        background-color: #fff;
+        margin: 22.7%;
+        padding: 20px;
+        width: 55%;
+        max-width: 500px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+    .form-box {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        right: 0;
+        opacity: 1;
+        visibility: visible;
+        display: none;
+    }
+
+    .container.active .toggle-box {
+        left: 0;
+    }
+
+    .container.active .form-box.register {
+        right: 0;
+        visibility: visible;
+    }
+
+    .form-box.active {
+        display: flex;
+    }
+
+    .toggle-box::before {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .btn-name-for-nickname {
+        max-width: 80px;
+    }
+}
+

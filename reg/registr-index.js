@@ -1,0 +1,17 @@
+import "../style2.css"
+import "../src/css/basic-style.css"
+import "../src/css/header-style.css"
+import "../src/css/footer-style.css"
+import "../src/css/style_reg.css"
+
+import "../src/js/reg/autorez.js"
+import "../src/js/api/api.js"
+import "../src/js/reg/reg.js"
+import "../src/js/reg/popup.js"
+import "../src/js/reg/formswitch.js"
+import "../src/js/reg/password.js"
+import "../src/js/reg/datevalid.js"
+import "../src/js/reg/nickname.js"
+import "../src/js/components/header.js"
+import "../src/js/components/footer.js"
+

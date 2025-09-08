@@ -1,0 +1,10 @@
+body{
+    display : flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
+.favorites-section{
+    padding: 40px;
+}

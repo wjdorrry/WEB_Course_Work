@@ -1,0 +1,115 @@
+.catalog-cart {
+    position: relative;
+    width: 300px;
+    height: 530px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background: #FFF;
+    border-radius: 10px;
+    color: #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px #000;
+}
+.catalog-cart:hover {
+    transform: scale(1.02);
+}
+.catalog-cart__img {
+    width: 280px;
+    height: 280px;
+    margin: 0 0 10px 0;
+}
+.catalog-cart__text-wrapper {
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.catalog-cart__name {
+    font-size: 18px;
+}
+.catalog-cart__price {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+}
+.catalog-cart__description {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    border:1px solid var(--secondary-color);
+}
+.nav-btn-link{
+    color: var(--primary-color);
+}
+.btn:hover {
+    background-color: var(--third-color);
+}
+.nav-btn{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.nav-btn:hover {background-color: var(--third-color);}
+
+.nav-btn:active {
+    background-color: var(--third-color);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.catalog-cart__buttons{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-catalog{
+    width: fit-content;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    box-shadow: 0 0 8px rgb(207, 207, 207);
+}
+.btn-catalog:hover{
+    scale: 1.1;
+}
+
+.remove-favorite {
+    position: absolute;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 80%;
+    bottom: 10px;
+}
+
+.remove-favorite:hover {
+    background-color: #cc0000;
+}

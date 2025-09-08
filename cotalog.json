@@ -1,0 +1,365 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "name": "Подготовка к школе",
+      "category": "Дошкольное образование",
+      "price": 120,
+      "rating": 4.8,
+      "description": "Занятия по чтению, письму и математике для дошкольников.",
+      "image": "https://images.unsplash.com/photo-1588072432836-e10032774350"
+    },
+    {
+      "id": "2",
+      "name": "Развитие памяти и внимания",
+      "category": "Когнитивные навыки",
+      "price": 100,
+      "rating": 4.7,
+      "description": "Игровые методики для тренировки памяти и концентрации.",
+      "image": "https://images.unsplash.com/photo-1614082242765-7a25f65d6a02"
+    },
+    {
+      "id": "3",
+      "name": "Логическое мышление",
+      "category": "Когнитивные навыки",
+      "price": 110,
+      "rating": 4.9,
+      "description": "Задачи, головоломки и логические игры для развития мышления.",
+      "image": "https://images.unsplash.com/photo-1616627987866-5a5f6d6e14cb"
+    },
+    {
+      "id": "4",
+      "name": "Шахматы для детей",
+      "category": "Игры",
+      "price": 130,
+      "rating": 4.9,
+      "description": "Обучение стратегии и тактике игры в шахматы.",
+      "image": "https://images.unsplash.com/photo-1604948501466-3d7caa6eafd6"
+    },
+    {
+      "id": "5",
+      "name": "Ментальная арифметика",
+      "category": "Математика",
+      "price": 150,
+      "rating": 4.8,
+      "description": "Скоростной устный счет с помощью специальных техник.",
+      "image": "https://images.unsplash.com/photo-1581090700227-4c4d1c6b3e23"
+    },
+    {
+      "id": "6",
+      "name": "Подготовка к олимпиадам по математике",
+      "category": "Математика",
+      "price": 200,
+      "rating": 4.9,
+      "description": "Сложные задачи и подготовка к олимпиадам различного уровня.",
+      "image": "https://images.unsplash.com/photo-1600267165477-6a8f2d2c5a52"
+    },
+    {
+      "id": "7",
+      "name": "Робототехника для начинающих",
+      "category": "Техника",
+      "price": 180,
+      "rating": 4.7,
+      "description": "Сборка и программирование простых роботов.",
+      "image": "https://images.unsplash.com/photo-1581090468334-500f1f8a4f8c"
+    },
+    {
+      "id": "8",
+      "name": "Программирование Scratch",
+      "category": "IT",
+      "price": 140,
+      "rating": 4.8,
+      "description": "Основы программирования для детей через визуальный язык Scratch.",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+    },
+    {
+      "id": "9",
+      "name": "Python для детей",
+      "category": "IT",
+      "price": 190,
+      "rating": 4.9,
+      "description": "Программирование на языке Python для начинающих школьников.",
+      "image": "https://images.unsplash.com/photo-1581093588401-22a1f2b9b5e3"
+    },
+    {
+      "id": "10",
+      "name": "Английский для младших школьников",
+      "category": "Иностранные языки",
+      "price": 160,
+      "rating": 4.8,
+      "description": "Обучение базовому английскому через игры и песни.",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b"
+    },
+    {
+      "id": "11",
+      "name": "Подготовка к ЕГЭ по математике",
+      "category": "Экзамены",
+      "price": 250,
+      "rating": 4.9,
+      "description": "Курс для старшеклассников с полным разбором тем ЕГЭ.",
+      "image": "https://images.unsplash.com/photo-1559757175-5700dde67548"
+    },
+    {
+      "id": "12",
+      "name": "Подготовка к ОГЭ по русскому языку",
+      "category": "Экзамены",
+      "price": 220,
+      "rating": 4.7,
+      "description": "Разбор заданий ОГЭ, практика написания сочинений.",
+      "image": "https://images.unsplash.com/photo-1551817958-20204d6ab87f"
+    },
+    {
+      "id": "13",
+      "name": "Каллиграфия",
+      "category": "Творчество",
+      "price": 100,
+      "rating": 4.6,
+      "description": "Развитие красивого и грамотного письма.",
+      "image": "https://images.unsplash.com/photo-1524492449090-1a6dd8d6f20b"
+    },
+    {
+      "id": "14",
+      "name": "Скорочтение",
+      "category": "Когнитивные навыки",
+      "price": 140,
+      "rating": 4.8,
+      "description": "Техника быстрого чтения с пониманием текста.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+    },
+    {
+      "id": "15",
+      "name": "Курс по роботам LEGO",
+      "category": "Техника",
+      "price": 170,
+      "rating": 4.7,
+      "description": "Проектирование и программирование роботов из LEGO.",
+      "image": "https://images.unsplash.com/photo-1622495896689-6a756d34b93a"
+    },
+    {
+      "id": "16",
+      "name": "Ораторское мастерство",
+      "category": "Навыки общения",
+      "price": 150,
+      "rating": 4.6,
+      "description": "Развитие уверенности и умения выступать публично.",
+      "image": "https://images.unsplash.com/photo-1503676260925-2c6e2f4c7b53"
+    },
+    {
+      "id": "17",
+      "name": "Курс по 3D-моделированию",
+      "category": "IT",
+      "price": 200,
+      "rating": 4.8,
+      "description": "Создание простых 3D-моделей в специализированных программах.",
+      "image": "https://images.unsplash.com/photo-1581091215367-59f2b10e5e6f"
+    },
+    {
+      "id": "18",
+      "name": "Курс по биологии",
+      "category": "Школьные предметы",
+      "price": 160,
+      "rating": 4.7,
+      "description": "Интерактивные занятия по основам биологии.",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "19",
+      "name": "Физика в опытах",
+      "category": "Школьные предметы",
+      "price": 170,
+      "rating": 4.8,
+      "description": "Практические эксперименты по физике для школьников.",
+      "image": "https://images.unsplash.com/photo-1559757175-0e1a2a3c66e3"
+    },
+    {
+      "id": "20",
+      "name": "Химия для школьников",
+      "category": "Школьные предметы",
+      "price": 180,
+      "rating": 4.7,
+      "description": "Занятия по химии с проведением безопасных опытов.",
+      "image": "https://images.unsplash.com/photo-1581091012184-5c32f8a3a95f"
+    },
+    {
+      "id": "21",
+      "name": "Творческое письмо",
+      "category": "Творчество",
+      "price": 130,
+      "rating": 4.6,
+      "description": "Развитие письменной речи через сказки и рассказы.",
+      "image": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe"
+    },
+    {
+      "id": "22",
+      "name": "Подготовка к олимпиадам по информатике",
+      "category": "IT",
+      "price": 220,
+      "rating": 4.9,
+      "description": "Сложные задачи и алгоритмы для школьников.",
+      "image": "https://images.unsplash.com/photo-1537432376769-00a6d1b1e2db"
+    },
+    {
+      "id": "23",
+      "name": "Развитие креативности",
+      "category": "Когнитивные навыки",
+      "price": 120,
+      "rating": 4.7,
+      "description": "Методики для нестандартного мышления и генерации идей.",
+      "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e"
+    },
+    {
+      "id": "24",
+      "name": "Курс по астрономии",
+      "category": "Наука",
+      "price": 150,
+      "rating": 4.8,
+      "description": "Основы астрономии, изучение планет и звезд.",
+      "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa"
+    },
+    {
+      "id": "25",
+      "name": "История для школьников",
+      "category": "Школьные предметы",
+      "price": 160,
+      "rating": 4.6,
+      "description": "Интерактивные занятия по истории с викторинами.",
+      "image": "https://images.unsplash.com/photo-1529070538774-1843cb3265df"
+    },
+    {
+      "name": "Подготовка к олимпиадам по русскому языку",
+      "category": "Экзамены",
+      "price": 210,
+      "rating": 1,
+      "description": "Углубленный курс по грамматике и лексике.",
+      "image": "https://images.unsplash.com/photo-1581091215367-59f2b10e5e6f",
+      "id": "26"
+    },
+    {
+      "id": "27",
+      "name": "Финансовая грамотность",
+      "category": "Жизненные навыки",
+      "price": 180,
+      "rating": 4.7,
+      "description": "Основы управления личными финансами для подростков.",
+      "image": "https://images.unsplash.com/photo-1604594849809-87a6897c3a26"
+    },
+    {
+      "id": "28",
+      "name": "Курс по экологии",
+      "category": "Наука",
+      "price": 150,
+      "rating": 4.6,
+      "description": "Занятия по экологии и охране окружающей среды.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "id": "29",
+      "name": "Развитие эмоционального интеллекта",
+      "category": "Навыки общения",
+      "price": 140,
+      "rating": 4.8,
+      "description": "Обучение распознаванию и управлению эмоциями.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+    },
+    {
+      "id": "30",
+      "name": "Подготовка к ВПР",
+      "category": "Экзамены",
+      "price": 200,
+      "rating": 4.7,
+      "description": "Комплексная подготовка к всероссийским проверочным работам.",
+      "image": "https://images.unsplash.com/photo-1581092335025-f1e3ff7c62f2"
+    },
+    {
+      "id": "5715",
+      "name": "Подготовка к олимпиадам по русскому языку",
+      "category": "Экзамены",
+      "price": 210,
+      "rating": 1,
+      "description": "Углубленный курс по грамматике и лексике.",
+      "image": "https://images.unsplash.com/photo-1581091215367-59f2b10e5e6f"
+    }
+  ],
+  "users": [
+    {
+      "id": "fc2c",
+      "firstName": "Jenesius",
+      "lastName": "Arhipzev",
+      "middleName": "",
+      "phone": "+375447203011",
+      "email": "Jenesius1998@gmail.com",
+      "dob": "2009-05-01",
+      "password": "C&u&U8R5ly*H",
+      "nickname": "Oguvut",
+      "role": "user",
+      "favorites": [],
+      "cart": []
+    },
+    {
+      "id": "2254",
+      "firstName": "Fkjbkjlb",
+      "lastName": "Djlbkjfg",
+      "middleName": "Dihoih",
+      "phone": "+375446829326",
+      "email": "jenesius2@gmail.com",
+      "dob": "2009-04-27",
+      "password": "54LpfO@VhL*i",
+      "nickname": "Emypib",
+      "role": "user",
+      "favorites": [],
+      "cart": []
+    },
+    {
+      "id": "admin1",
+      "firstName": "Admin",
+      "lastName": "Root",
+      "middleName": "",
+      "phone": "+375446666666",
+      "email": "admin@example.com",
+      "dob": "1990-01-01",
+      "password": "Admin@123",
+      "nickname": "RootAdmin",
+      "role": "admin",
+      "favorites": [
+        {
+          "id": "1",
+          "name": "Подготовка к школе",
+          "category": "Дошкольное образование",
+          "price": 120,
+          "rating": 4.8,
+          "description": "Занятия по чтению, письму и математике для дошкольников.",
+          "image": "https://images.unsplash.com/photo-1588072432836-e10032774350"
+        },
+        {
+          "id": "2",
+          "name": "Развитие памяти и внимания",
+          "category": "Когнитивные навыки",
+          "price": 100,
+          "rating": 4.7,
+          "description": "Игровые методики для тренировки памяти и концентрации.",
+          "image": "https://images.unsplash.com/photo-1614082242765-7a25f65d6a02"
+        }
+      ],
+      "cart": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "ecb0",
+      "userId": "admin1",
+      "nickname": "RootAdmin",
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 1
+        },
+        {
+          "productId": "2",
+          "quantity": 1
+        }
+      ],
+      "date": "2025-09-08T06:56:15.759Z"
+    }
+  ],
+  "feedback": []
+}

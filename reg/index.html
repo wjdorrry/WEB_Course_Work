@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="https://cdn.discordapp.com/attachments/1246484201247871047/1375933145026662430/image.png?ex=68337d19&is=68322b99&hm=935fc672f26b582a2e8fdc11f7e4b66b19eca235962d60c9fa9b0bb638655520&" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <title>Registration</title>
+</head>
+<body>
+<header class="header">
+    <widget-header></widget-header>
+</header>
+<main class="main">
+    <section class="container" id="container">
+        <div class="form-box login">
+            <form action="#" class="form-box-login" id="loginForm">
+                <p class="form-box-logo">Login</p>
+                <div class="input-box">
+                    <input type="text" class="input-login" placeholder="Username" id="loginUsername" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" class="input-login" placeholder="Password" id="loginPassword" required>
+                </div>
+                <div class="form-box-login-forgot">
+                    <a href="#" class="form-box-login-forgot-link">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <form action="#" class="form-box-register"  id="registrationForm">
+                <p class="form-box-logo">Registration</p>
+                <div class="input-box">
+                    <input type="text" class="input-login" placeholder="First Name*" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-login" placeholder="Last Name*" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-login" placeholder="Middle name">
+                </div>
+                <div class="input-box">
+                    <input type="tel" class="input-login" placeholder="Phone Number (Belarus only)*"
+                           pattern="\+375[0-9]{9}" required>
+                    <div class="error-message">Please enter a valid Belarusian phone number (+375XXXXXXXXX)</div>
+                </div>
+                <div class="input-box">
+                    <input type="email" class="input-login" placeholder="Email*" required>
+                    <div class="error-message">Please enter a valid email address</div>
+                </div>
+                <div class="input-box">
+                    <input type="date" class="input-login" placeholder="Date of Birth*" required
+                           max="">
+                    <div class="error-message">You must be at least 16 years old</div>
+                </div>
+                <div class="gener-password">
+                    <label>
+                        <input type="radio" name="passwordOption" value="manual" checked> Задать пароль вручную
+                    </label>
+                    <label>
+                        <input type="radio" name="passwordOption" value="auto"> Сгенерировать
+                    </label>
+                </div>
+                <div id="passwordFields">
+                    <div class="input-box">
+                        <input type="password" id="password" class="input-login"
+                               placeholder="Пароль (8-20 символов)*"
+                               required>
+                        <div class="error-message">Пароль не соответствует требованиям</div>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" id="confirmPassword" class="input-login"
+                               placeholder="Повторите пароль*" required>
+                        <div class="error-message">Пароли не совпадают</div>
+                    </div>
+                </div>
+                <div class="input-box nickname-section">
+                    <input type="text" class="input-login" placeholder="Nickname*" id="nickname_gen" required>
+                    <button type="button" class="btn-name-for-nickname">Generate New</button>
+                </div>
+                <div class="input-box">
+                    <label class="terms-label">
+                        <input type="checkbox" id="terms-checkbox" required>
+                        I agree to the <a href="#" class="terms-link" id="openModal">Privacy Policy</a>*
+                    </label>
+                </div>
+                <div id="privacyPopup" class="popup">
+                    <div class="popup-content">
+                        <span id="closePopup" class="popup-close">&times;</span>
+                        <h2>Privacy Policy</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fuga fugiat harum id
+                            laborum laudantium maiores odit possimus sapiente, sequi, similique sit tenetur unde. Nam
+                            quae sapiente soluta suscipit veritatis.</p>
+                    </div>
+                </div>
+                <button type="submit" class="btn">Register</button>
+            </form>
+        </div>
+
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <p class="toggle-panel-logo">Hello, Welcome!</p>
+                <p class="toggle-panel-info">Don't have an account?</p>
+                <button class="btn register-btn" id="registerBtn">Register</button>
+            </div>
+
+            <div class="toggle-panel toggle-right">
+                <p class="toggle-panel-logo">Welcome Back!</p>
+                <p class="toggle-panel-info">Already have an account?</p>
+                <button class="btn login-btn" id="loginBtn">Login</button>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <widget-footer></widget-footer>
+</footer>
+<div style="position: fixed; bottom: 0; left: 0;">
+    <div class="text-scale-controls">
+        <button data-scale="0.8">A-</button>
+        <button data-scale="1" class="active">A</button>
+        <button data-scale="1.2">A+</button>
+    </div>
+    <div class="theme-switcher">
+        <button data-theme="default" class="active">Стандарт</button>
+        <button data-theme="dark">Тёмная</button>
+        <button data-theme="beige">Бежевая</button>
+        <button data-theme="blue">Синяя</button>
+    </div>
+    <button class="toggle-images-btn">Скрыть картинки</button>
+
+</div>
+<script>
+    function setTextScale(scale) {
+        document.documentElement.style.setProperty('--text-scale', scale);
+        localStorage.setItem('textScale', scale);
+
+        const header = document.querySelector('.header');
+        if (header) {
+            header.style.fontSize = `${scale}em`;
+        }
+
+        document.querySelectorAll('.catalog-item, .catalog-item *').forEach(el => {
+            el.style.fontSize = `${scale}em`;
+        });
+    }
+
+    document.querySelectorAll('[data-scale]').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const scale = parseFloat(this.dataset.scale);
+            setTextScale(scale);
+
+            document.querySelectorAll('[data-scale]').forEach(b =>
+                b.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+
+    document.querySelectorAll('[data-theme]').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const theme = this.dataset.theme;
+
+            if (theme === "default") {
+
+                document.documentElement.classList.remove(
+                    'dark-theme', 'beige-theme', 'blue-theme'
+                );
+
+                document.querySelectorAll('[data-theme]').forEach(b =>
+                    b.classList.remove('active'));
+
+                localStorage.removeItem('colorTheme');
+                this.classList.add('active');
+                return;
+            }
+
+            document.documentElement.classList.remove(
+                'dark-theme', 'beige-theme', 'blue-theme'
+            );
+            document.documentElement.classList.add(`${theme}-theme`);
+
+            document.querySelectorAll('[data-theme]').forEach(b =>
+                b.classList.remove('active'));
+            this.classList.add('active');
+
+            localStorage.setItem('colorTheme', theme);
+        });
+    });
+
+    document.querySelectorAll('[data-theme]').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const theme = this.dataset.theme;
+            setTheme(theme);
+
+            document.querySelectorAll('[data-theme]').forEach(b =>
+                b.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+
+    document.querySelector('.toggle-images-btn').addEventListener('click', function() {
+        const imagesDisabled = !this.classList.toggle('active');
+
+        if (imagesDisabled) {
+            document.body.classList.add('no-images');
+        } else {
+            document.body.classList.remove('no-images');
+        }
+
+        document.querySelectorAll('img, svg, .icon').forEach(el => {
+            if (imagesDisabled) {
+                el.dataset.originalDisplay = el.style.display || '';
+                el.style.display = 'none';
+
+                if (el.alt) {
+                    const desc = document.createElement('div');
+                    desc.className = 'image-alt-text';
+                    desc.textContent = el.alt;
+                    el.parentNode.insertBefore(desc, el.nextSibling);
+                }
+            } else {
+                el.style.display = el.dataset.originalDisplay || '';
+                document.querySelectorAll('.image-alt-text').forEach(d => d.remove());
+            }
+        });
+
+        localStorage.setItem('imagesDisabled', imagesDisabled);
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const savedScale = localStorage.getItem('textScale') || '1';
+        setTextScale(savedScale);
+        document.querySelector(`[data-scale="${savedScale}"]`)?.classList.add('active');
+
+        const savedTheme = localStorage.getItem('colorTheme');
+        if (savedTheme) {
+            const themeBtn = document.querySelector(`[data-theme="${savedTheme}"]`);
+            if (themeBtn) themeBtn.click();
+        }
+
+        if (localStorage.getItem('imagesDisabled') === 'true') {
+            document.querySelector('.toggle-images-btn').classList.add('active');
+            document.body.classList.add('no-images');
+        }
+    });
+</script>
+<script type="module" src="registr-index.js"></script>
+</body>
+</html>

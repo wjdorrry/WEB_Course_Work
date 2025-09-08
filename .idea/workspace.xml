@@ -4,53 +4,95 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f70ce05c-b21e-4a98-a85b-6bc7230ac52a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="2a2efae1-f70f-48a8-bf34-c6224b1d8bac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/admin/admin-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/cart-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/catalog-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/catalog-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/favorite/favorite-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/favorite/favorite-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/contact-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cotalog.json" beforeDir="false" afterPath="$PROJECT_DIR$/cotalog.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feedback/feedback-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/feedback/feedback-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feedback/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/feedback/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/profile-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reg/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reg/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reg/registr-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/reg/registr-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/header-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style-admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style-feedback.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style-feedback.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style_catalog.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style_catalog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style_reg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style_reg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Frame1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Frame2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Frame3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Frame4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Frame5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Frame6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Frame7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Rectangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Rectangle1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Rectangle2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Rectangle3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Rectangle4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Website-Main-Banner-8f49d24d33364fd40a0f9e81a18f1b51 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/image 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/translations/translations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/translations/translations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bog-danius&quot;
+  }
 }</component>
-  <component name="ProjectId" id="32FKXAx9qQjpZRjFlgnuMJ5Wukh" />
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bog-danius/Cursach.git&quot;,
+    &quot;accountId&quot;: &quot;b94d2958-4c3e-49a3-9ad6-be1effe29c82&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="32Exg2KMsMTEPsQabaAqeFOpwaI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;J:/Projects/cursach&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -60,13 +102,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f70ce05c-b21e-4a98-a85b-6bc7230ac52a" name="Changes" comment="" />
-      <created>1757010919207</created>
+      <changelist id="2a2efae1-f70f-48a8-bf34-c6224b1d8bac" name="Changes" comment="" />
+      <created>1756999640898</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1757010919207</updated>
-      <workItem from="1757010920277" duration="5877000" />
-      <workItem from="1757084481617" duration="5704000" />
+      <updated>1756999640898</updated>
+      <workItem from="1756999642073" duration="578000" />
+      <workItem from="1757000863631" duration="14000" />
+      <workItem from="1757000909438" duration="1000" />
+      <workItem from="1757195566800" duration="6719000" />
+      <workItem from="1757251478759" duration="1437000" />
+      <workItem from="1757253034303" duration="6574000" />
     </task>
     <servers />
   </component>

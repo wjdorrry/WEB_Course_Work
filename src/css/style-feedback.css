@@ -1,0 +1,145 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #3498db;
+    --third-color: #2ecc71;
+    --bg-color: #ffffff;
+    --card-bg: #ffffff;
+    --text-color: #000000;
+}
+
+.default-theme {
+    --primary-color: #000;
+    --secondary-color: #3498db;
+    --third-color: #2ecc71;
+    --bg-color: #ffffff;
+    --card-bg: #ffffff;
+    --text-color: #000000;
+}
+
+.dark-theme {
+    --primary-color: #fff;
+    --secondary-color: #444;
+    --third-color: #777;
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --text-color: #eaeaea;
+}
+
+.beige-theme {
+    --primary-color: #4b3832;
+    --secondary-color: #d9ad7c;
+    --third-color: #e85a4f;
+    --bg-color: #fbeec1;
+    --card-bg: #fff;
+    --text-color: #4b3832;
+}
+
+.blue-theme {
+    --primary-color: #fff;
+    --secondary-color: #2980b9;
+    --third-color: #8e44ad;
+    --bg-color: #34495e;
+    --card-bg: #3b5998;
+    --text-color: #ecf0f1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.main {
+    padding: 40px;
+    flex: 1;
+}
+
+h1, h2 {
+    padding: 10px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: var(--card-bg);
+    color: var(--text-color);
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: var(--card-bg);
+    color: var(--text-color);
+}
+
+.review-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 6px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.review-btn:hover {
+    background-color: var(--third-color);
+}
+
+.input-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.feedback-item {
+    background-color: var(--card-bg);
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    color: var(--text-color);
+}
+
+.feedback-item strong {
+    color: var(--primary-color);
+}
+
+.feedback-item small {
+    display: block;
+    color: #888;
+    margin-top: 10px;
+}
+
+.api-error {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff0f0;
+    border: 1px solid #e00;
+    border-radius: 8px;
+}
+
+@media (max-width: 320px) {
+    #productSelect option {
+        max-width: 240px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+    }
+}

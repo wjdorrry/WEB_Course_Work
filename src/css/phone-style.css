@@ -1,0 +1,28 @@
+@media (min-width: 769px) {
+    .info__block {
+    }
+
+    .info__block-img {
+        width: 50%;
+    }
+
+    .info__block-text {
+        width: 50%;
+    }
+}
+@media (max-width: 768px) {
+    .catalog-item-inf {
+        line-height: 24px;
+        font-size: 11px
+    }
+
+    .catalog-item-line {
+        width: 80%;
+    }
+
+    .catalog-item-img {
+        width: 280px;
+        height: 386px
+    }
+}
+
