@@ -1,6 +1,6 @@
 # Cursach
 # Макет
-Figma Preview [(https://img.shields.io/badge/Figma-Preview-0ACF83?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/GK6DNhhC3nPrcKYAilSbBM/ROCC--Copy-?node-id=0-1&p=f&t=vbazjZQiTCk7f1ww-0)](https://www.figma.com/design/8rO15I2bpqGsrLhOxwlgAL/cursach?node-id=0-1&p=f&t=amQUo9ujwjrOSydv-0)](https://www.figma.com/design/8rO15I2bpqGsrLhOxwlgAL/cursach?node-id=0-1&p=f&t=amQUo9ujwjrOSydv-0)
+Figma Preview (https://www.figma.com/design/GK6DNhhC3nPrcKYAilSbBM/ROCC--Copy-?node-id=0-1&p=f&t=vbazjZQiTCk7f1ww-0)
 
 # Запуск
 Зависимости node v21.5.0 [скачать](https://nodejs.org/en/blog/release/v21.5.0), npm 10.2.4 [скачать](https://www.npmjs.com/package/npm/v/10.2.4)
